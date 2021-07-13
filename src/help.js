@@ -1,7 +1,7 @@
 const help = (prefix) => {
 	return `
 
-⌜ *Bender Bot 🤖 by Steven* ⌟
+⌜ *BenderBot 🤖 by Steven* ⌟
 
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
@@ -88,4 +88,3 @@ by Steven
 }
 
 exports.help = help
-Bender Bot
