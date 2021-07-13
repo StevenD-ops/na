@@ -9,7 +9,7 @@ gracias
 hola
 fua
 corte
-gaspi buenos dias 
+gaspi buenos dias
 gaspi me saludas
 gaspi y las minitas
 gaspi todo bien
@@ -39,7 +39,7 @@ enano
 
 _*Ojito escribe tal y como esta en el mensaje*_
 
-by shanduy`
+by Steven`
 
 }
 

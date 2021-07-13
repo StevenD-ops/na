@@ -1,13 +1,11 @@
 const help = (prefix) => {
 	return `
 
-⌜ *ShanBot 🤖 by shanduy* ⌟  
+⌜ *Bender Bot 🤖 by Steven* ⌟
 
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: shanduy™ 
-   ○ Como instalar el bot: https://www.youtube.com/watch?v=2LQSzEbpJ-M
-   ○ Instagram: https://www.instagram.com/thepavos
+   ○ Creador: Steven™
 
 
 ◉ *NUEVOS COMANDOS*
@@ -15,33 +13,23 @@ const help = (prefix) => {
 Su nombre lo dice todo (antilink)
 ○ ${prefix}otak
 Monas chinas
-○ ${prefix}shantera
-Interactua con el bot
 
 ◉ *NUEVOS MENUS*
 ○ ${prefix}juegos
 Divierte con tus amigos :)
 ○ ${prefix}desmenu
 Descargar musica y videos de YT
-○ ${prefix}version
-Conoce la versión de tu bot
-○ ${prefix}welmenu
-Comandos de bienvedia a grupos
 
 ◉ *PARA USAR EL BOT*
-Registrate con el comando ${prefix}daftar y tu nombre
+Registrate con el comando ${prefix}registro y tu nombre
 
-◉ *RESUELVE TUS DUDAS*
-  ║
-  ╠ ○ ${prefix}creador
-  ╚ Dudas o problemas aqui
 
 ◉ *CREAR STICKERS*
   ║
-  ╠ ○ ${prefix}sticker
+  ╠ ○ ${prefix}sticker o s
   ╠ ○ ${prefix}attp
   ╠ Mas un texto corto
-  ╠ ○ ${prefix}stickergif
+  ╠ ○ ${prefix}stickergif o s
   ╚ 6 segundos de video
 
 ◉ *CONVERTIDORES*
@@ -70,7 +58,7 @@ Registrate con el comando ${prefix}daftar y tu nombre
   ╠ ○ ${prefix}opengc
   ╠ Abrir grupo solo admins
   ╠ ○ ${prefix}kick o pafuera
-  ╠ Eliminar a un miembro 
+  ╠ Eliminar a un miembro
   ╠ ○ ${prefix}promote
   ╠ Dar admin a un miembro
   ╠ ○ ${prefix}demote
@@ -81,8 +69,8 @@ Registrate con el comando ${prefix}daftar y tu nombre
   ╚ Nombra a todos los del grupo
 
 Para usar estas funciones el bot necesita admin
-  
-◉ *NSWF* 
+
+◉ *NSWF*
   ║
   ╚ ○ ${prefix}nsfwmenu
 
@@ -92,11 +80,12 @@ Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desact
 No te olvides de seguirme en instagram flaco ;)
 
 
-by shanduy
+by Steven
 
 
-⌜ *ごきげんよう :)* ⌟ 
+⌜ *ごきげんよう :)* ⌟
 `
 }
 
 exports.help = help
+Bender Bot
