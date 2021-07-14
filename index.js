@@ -1302,8 +1302,8 @@ break
 					})
 					break
                 default:
-		if (budy.includes(`todo bien`)) {
-                  reply(`Si amigo todo, bien vite`)
+		if (budy.includes(`Silencoi Bruno`)) {
+                  reply(`SILENCIO BRUNO`)
                   }
 
 		if (budy.includes(`buenos dias`)) {
@@ -1353,7 +1353,7 @@ break
         const none = fs.readFileSync('./anishan/anime1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`pasen sexo`)) {
+	if (budy.startsWith(`silencio bruno`)) {
         const none = fs.readFileSync('./mp3/fernan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
