@@ -1326,7 +1326,7 @@ break
                   reply(`opaaaaa`)
                   }
 
-		if (budy.includes(`islammenu`)) {
+		if (budy.includes(`Isa`)) {
                   reply(`Isa is very beautiful`)
                   }
 
