@@ -1354,7 +1354,7 @@ break
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`silencio bruno`)) {
-        const none = fs.readFileSync('./mp3/fernan.mp3');
+        const none = fs.readFileSync('./mp3/AUD-20210714-WA0116.m4a');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`paraguayo`)) {
