@@ -1302,7 +1302,7 @@ break
 					})
 					break
                 default:
-		if (budy.includes(`Silencoi Bruno`)) {
+		if (budy.includes(`Silencio bruno`)) {
                   reply(`SILENCIO BRUNO`)
                   }
 
