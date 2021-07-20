@@ -656,7 +656,7 @@ break
 					const gtts = require('./lib/gtts')(args[0])
 					if (args.length < 2) return client.sendMessage(from, 'Y el texto?', text, {quoted: mek})
 					dtt = body.slice(8)
-					ranm = getRandom('.mp3')
+					ranm = getRandom('.m4a')
 					rano = getRandom('.ogg')
 					dtt.length > 600
 					? reply('Texto muy largo weon')
@@ -1305,7 +1305,9 @@ break
 		if (budy.includes(`Silencio bruno`)) {
                   reply(`SILENCIO BRUNO`)
                   }
-
+    if (budy.includes(`no`)) {
+                  reply(`Que si`)
+                    }
 		if (budy.includes(`buenos dias`)) {
                   reply(`Buenos Dias trolos de mierda`)
                   }
