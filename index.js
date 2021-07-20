@@ -1342,6 +1342,10 @@ break
         const none = fs.readFileSync('./anishan/anime4.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
+  if (budy.startsWith(`quien es tu sempai botsito`)) {
+        const none = fs.readFileSync('./mp3/WhatsApp Audio 2021-07-19 at 10.39.47 PM.ogg');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                                  }
 	if (budy.startsWith(`me gimes 7u7`)) {
         const none = fs.readFileSync('./anishan/anime3.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
