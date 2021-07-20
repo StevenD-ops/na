@@ -87,7 +87,7 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******CARGA DE ENTRADA VCARD******/
 const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:3.0\n'
-            + 'FN:Shan\n' // Nombre
+            + 'FN:Steven\n' // Nombre
             + 'ORG:Steven;\n' // Propietario
             + 'TEL;type=CELL;type=VOICE;waid=593967689722:+593 96 768 9722\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
@@ -468,7 +468,7 @@ async function starts() {
 		case 'idioma':
 		client.sendMessage(from, bahasa(prefix, sender), text, {quoted: mek})
 		break
-		case 'shanmenu':
+		case 'Stevenmenu':
 		client.sendMessage(from, toinmenu(prefix, sender), text, {quoted: mek})
 		break
 		case 'menuadmin':
@@ -490,8 +490,8 @@ async function starts() {
                 case 'welmenu':
 		client.sendMessage(from, welmenu(prefix, sender), text, {quoted: mek})
 		break
-		case 'shantera':
-		client.sendMessage(from, shantera(prefix, sender), text, {quoted: mek})
+		case 'Steventera':
+		client.sendMessage(from, Steventera(prefix, sender), text, {quoted: mek})
 		break
 
 		/*case 'virtex':
@@ -602,7 +602,7 @@ break
 	case 'creador':
 	    case 'owner':
                 case 'creator':
-                client.sendMessage(from, {displayname: "Shan", vcard: vcard}, MessageType.contact, { quoted: mek})
+                client.sendMessage(from, {displayname: "Steven", vcard: vcard}, MessageType.contact, { quoted: mek})
 		client.sendMessage(from, 'Arriba está el número del creador del bot <ѕнαηвσт ву ѕнαη∂υу>\n\nNO SOY UN BOT LPM 🥸\n\nAhi puedes resolver tus preguntas y errores :)\n\nEste no es el numero del propietario del bot que estas usando, si no del creador de la base de datos del bot❗\n\nby Steve',MessageType.text, { quoted: mek} )
                 const none = fs.readFileSync('./mp3/shan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -881,7 +881,7 @@ break
 				case 's':
 				case 'tucson':
 				case 'opa':
-				case 'shan':
+				case 'Steven':
 				case 'nefasto':
 				case 'stiker':
 				case 'sticker':
@@ -1305,8 +1305,8 @@ break
 		if (budy.includes(`Silencio bruno`)) {
                   reply(`SILENCIO BRUNO`)
                   }
-    if (budy.includes(`no`)) {
-                  reply(`Que si`)
+    if (budy.includes(`Comeme`)) {
+                  reply(`vamos sacate la tula`)
                     }
 		if (budy.includes(`buenos dias`)) {
                   reply(`Buenos Dias trolos de mierda`)
@@ -1347,6 +1347,10 @@ break
         const none = fs.readFileSync('./anishan/anime3.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
+                  if (budy.startsWith(`Gime para mi`)) {
+                        const none = fs.readFileSync('./anishan/anime3.mp3');
+                		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                                  }
 	if (budy.startsWith(`te amo botsito uwu`)) {
         const none = fs.readFileSync('./anishan/anime2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
