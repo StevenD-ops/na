@@ -1301,6 +1301,9 @@ break
 					})
 					break
                 default:
+    if (budy.includes(`maricon`)) {
+                  reply(`justin es el maricon`)
+                  }
 		if (budy.includes(`Silencio bruno`)) {
                   reply(`SILENCIO BRUNO`)
                   }
