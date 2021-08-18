@@ -1301,6 +1301,22 @@ break
 					})
 					break
                 default:
+    if (budy.includes(`Mi gente`)) {
+                  reply(`si a eli, mmg, naty, Cristian, Diana, harry y muchos mas.`)
+                  }
+    if (budy.includes(`mmg`)) {
+                  reply(`la tuya no, es muy chiquita`)
+                  }
+
+    if (budy.includes(`loco`)) {
+                  reply(`Loco tu tio sergio`)
+                  }
+    if (budy.includes(`we`)) {
+                  reply(`wee`)
+                  }
+    if (budy.includes(`wee`)) {
+                  reply(`weee`)
+                  }
     if (budy.includes(`maricon`)) {
                   reply(`justin es el maricon`)
                   }
